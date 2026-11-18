@@ -1,0 +1,19 @@
+/* Tokens da identidade "Prancha": papel azul de desenho técnico, traço ciano e sinal âmbar.
+   Tema único escuro, escolhido de propósito. */
+:root {
+  color-scheme: dark;
+  --bg: #08152a;      /* papel da prancha */
+  --grid: #11274a;    /* grade fina */
+  --line: #284a78;    /* contornos */
+  --ink: #dce9fa;     /* texto */
+  --dim: #88a2c4;     /* texto secundário */
+  --cyan: #8fd0ff;    /* traço de destaque */
+  --amber: #ffbf5e;   /* "no ar" e foco */
+  --panel: #0c1d37;   /* janelas e painéis */
+
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", monospace;
+
+  --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+}
